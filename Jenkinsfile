@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "anasbarnoch/tp5"
+    registry = "anasbarnoch/tp5devops"
     registryCredential = 'docker_hub'
     dockerImage = ''
   }
