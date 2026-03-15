@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/anasbrn/tp5-devops'
+        git clone 'https://github.com/anasbrn/tp5-devops'
       }
     }
     stage('Building image') {
